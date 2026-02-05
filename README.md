@@ -4,7 +4,7 @@
 
 Apliquei o **Princípio da Responsabilidade Única (SRP)** para organizar melhor o código da classe `ProcessadorDePedido`.
 
-## 🔄 Antes vs. Depois
+## Antes vs. Depois
 
 **Antes:** A classe `ProcessadorDePedido` fazia tudo sozinha (estoque, cálculos, banco de dados e e-mail).
 
@@ -16,7 +16,8 @@ Apliquei o **Princípio da Responsabilidade Única (SRP)** para organizar melhor
 * **PersistidorDePedido:** Salva o pedido no banco de dados.
 * **EnviadorDeEmail:** Envia a confirmação para o cliente.
 
-## ✅ Benefícios
+## Benefícios
 * **Manutenção:** Mais fácil de alterar uma regra sem quebrar o resto.
 * **Testes:** Cada classe pode ser testada isoladamente.
 * **Flexibilidade:** Facilita trocas futuras (ex: mudar o banco de dados).
+
